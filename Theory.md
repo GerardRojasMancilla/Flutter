@@ -64,6 +64,10 @@ haga, entonces no tiene un Estado.
 • Stateless significa que no tiene estado.
 • Stateful significa que cambiará de estado.
 
+## Stateless widget
+
+
+
 **Develop**
 
 - se usara lib para las carpetas domain, presentation. data
