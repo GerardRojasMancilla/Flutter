@@ -38,7 +38,7 @@ bloquea). Las aplicaciones Flutter se compilan en código nativo.
 - cross-platform
 - La arquitectura que se emplea es de patron de disenio es BLOC similar a MVP Y MVVM
 
-
+![block pattern image](block-pattern.png)
 
 
 
