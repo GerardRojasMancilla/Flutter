@@ -66,12 +66,24 @@ haga, entonces no tiene un Estado.
 
 ## Stateless widget
 
+Los Stateless widgets no tienen estado. Son widgets que pueden mostrar
+o hacer lo mismo todo el tiempo. No cambian la forma en que se
+comportan durante el tiempo de ejecución.
+
+
 ![widget image stateless diagram](stateless-diagram.png)
 
 
 ![part of the code](code-stateless.png)
 
 ## Statelful widget
+
+Un stateful widget es dinámico: por ejemplo, este puede cambiar su
+apariencia en respuesta a eventos desencadenados por la interacción del
+usuario o cuando recibe datos.
+Checkbox, Radio, Slider, InkWell, Form, y TextField 
+
+
 ![widget image stateful diagrama](stateful-diagram.png)
 
 ![part of the code of statful](code-stateful.png)
@@ -79,6 +91,17 @@ haga, entonces no tiene un Estado.
 ## Comparison 
 
 ![stateful vs stateless](comparation-state.png)
+
+
+## Good practices 
+
+Una buena práctica a seguir al escribir widgets es tratar de tener la
+menor cantidad posible de Stateful widgets. Escriba su código utilizando
+solo Stateless widgets y agregue Stateful widgets UNICAMENTE donde
+vea la necesidad.
+Por ejemplo, si en su pantalla tiene un texto que nunca cambiará y un
+botón que cambiará, no es necesario que todo esté en un Stateful
+widget. Solo el botón debe necesitar estado.
 
 
 **Develop**
