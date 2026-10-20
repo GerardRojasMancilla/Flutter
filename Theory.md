@@ -66,6 +66,17 @@ haga, entonces no tiene un Estado.
 
 ## Stateless widget
 
+![widget image stateless diagram](stateless-diagram.png)
+
+
+![part of the code](code-stateless.png)
+
+## Statelful widget
+![widget image stateful diagrama](stateful-diagram.png)
+
+![part of the code of statful](code-stateful.png)
+
+
 
 
 **Develop**
