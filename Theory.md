@@ -40,8 +40,29 @@ bloquea). Las aplicaciones Flutter se compilan en código nativo.
 
 ![block pattern image](block-pattern.png)
 
+# **Widget**
 
+![widget image of flutter](widget.png)
 
+Flutter tiene dos tipos de widgets:
+
+• STATELESS WIDGETS
+
+• STATEFUL WIDGETS
+
+Estos dos tipos de widgets son los bloques de construcción con los que trabaja flutter.
+
+Estado es algo que puede cambiar dentro de un widget.
+
+Por ejemplo, si tenemos un botón, puede hacer una acción dependiendo
+si hizo clic en él. Ese es un estado. El estado (acción) de ese botón puede
+cambiar. Si un widget es constante y no cambia sin importar lo que se
+haga, entonces no tiene un Estado.
+
+**Stateless y Stateful.**
+
+• Stateless significa que no tiene estado.
+• Stateful significa que cambiará de estado.
 
 **Develop**
 
