@@ -76,7 +76,9 @@ haga, entonces no tiene un Estado.
 
 ![part of the code of statful](code-stateful.png)
 
+## Comparison 
 
+![stateful vs stateless](comparation-state.png)
 
 
 **Develop**
